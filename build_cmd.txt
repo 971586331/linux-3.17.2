@@ -1,0 +1,3 @@
+make ARCH=arm omap2plus_defconfig
+make ARCH=arm CROSS_COMPILE=arm-none-eabi- -j2
+make ARCH=arm CROSS_COMPILE=arm-none-eabi- am335x-evm.dtb
